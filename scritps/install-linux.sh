@@ -1,7 +1,6 @@
 #!/bin/bash
 
-apt install -y tmux nano mc htop fonts-firacode fonts-powerline
-
+sudo apt install -y tmux nano mc htop fonts-firacode fonts-powerline
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 

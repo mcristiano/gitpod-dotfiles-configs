@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt install -y tmux nano mc fonts-firacode fonts-powerline powerline 
 
-# sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh) --unattended"
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh) --unattended"
 
 #ZSH_THEME="powerlevel9k/powerlevel9k"
 #POWERLEVEL9K_DISABLE_RPROMPT=true

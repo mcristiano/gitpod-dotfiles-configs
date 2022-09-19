@@ -8,7 +8,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
 sed -i 's/_THEME=\"robbyrussel\"/_THEME=\"bira\"/g' ~/.zshrc
 
-unalias gp
+#unalias gp nao funciona aqui
 
 #alias ztheme='(){ export ZSH_THEME="$@" && source $ZSH/oh-my-zsh.sh }'
 #bash "ztheme bira"

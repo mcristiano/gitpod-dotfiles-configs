@@ -6,7 +6,16 @@ sudo apt install -y tmux nano mc fonts-firacode fonts-powerline powerline fonts-
 sudo apt-get install -y git zip unzip htop bash-completion wget sudo locales
 sudo locale-gen en_US.UTF-8
 
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+
+
+
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh) --unattended"
+
+
+
+
 
 sed -i 's/ZSH_THEME="[^"]*"/ZSH_THEME="agnoster"/' ~/.zshrc
 

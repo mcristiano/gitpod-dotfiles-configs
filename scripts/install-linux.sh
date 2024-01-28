@@ -7,17 +7,9 @@ sudo apt-get install -y git zip unzip htop bash-completion wget sudo locales
 sudo locale-gen en_US.UTF-8
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-
-
-
-
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh) --unattended"
 
-
-
-
-
-sed -i 's/ZSH_THEME="[^"]*"/ZSH_THEME="agnoster"/' ~/.zshrc
+sed -i 's/ZSH_THEME="[^"]*"/ZSH_THEME="candy"/' ~/.zshrc
 
 composer global require laravel/installer
 
